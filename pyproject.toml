@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "brandshow4-autoplan_jd048"
+name = "brandshow4-slo_blame_chain_signature_match"
 version = "0.1.0"
 description = "通过字符级与结构级特征识别自动驾驶规划控制专家·SLO 违约的归因链路的痕迹，给出密度与命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://brandshow4.github.io"
-Repository = "https://github.com/brandshow4/autoplan_jd048"
-Issues = "https://github.com/brandshow4/autoplan_jd048/issues"
+Repository = "https://github.com/brandshow4/slo_blame_chain_signature_match"
+Issues = "https://github.com/brandshow4/slo_blame_chain_signature_match/issues"
 
 [project.scripts]
-autoplan_jd048 = "autoplan_jd048:main"
+slo_blame_chain_signature_match = "slo_blame_chain_signature_match:main"
 
 [tool.setuptools]
-py-modules = ["autoplan_jd048"]
+py-modules = ["slo_blame_chain_signature_match"]
